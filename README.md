@@ -1,4 +1,4 @@
-# Hey, I'm Kang Zhou 👋
+# Hey, I'm Neu Zhou 👋
 
 **Principal Engineer @ Microsoft** · Building AI that protects AI
 
@@ -37,7 +37,7 @@ npx clawguard sanitize "text"    # Strip PII locally
 ## 📫 Find Me
 
 - 💻 GitHub: [@NeuZhou](https://github.com/NeuZhou)
-- 📧 Email: neuzhou@outlook.com
+- 📧 Email: justboy1987@Gmail.com
 
 ---
 
