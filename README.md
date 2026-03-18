@@ -1,6 +1,6 @@
 <div align="center">
 
-# Kang Zhou
+# NeuZhou
 
 **Principal Engineer @ Microsoft · Building AI Agent Security & Intelligence Tools**
 
