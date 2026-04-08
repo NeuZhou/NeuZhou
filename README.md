@@ -2,86 +2,49 @@
 
 # NeuZhou
 
-**Principal Engineer @ Microsoft · Building AI Agent Security & Intelligence Tools**
+**Dissecting AI agent codebases. Building open source tools for quant finance and agent security.**
 
+[![Newsletter](https://img.shields.io/badge/Newsletter-AI%20Anatomy-orange?logo=substack)](https://neuzhou.substack.com)
 [![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=fff)](#)
 [![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff)](#)
-[![Azure](https://img.shields.io/badge/Azure-0078D4?logo=microsoftazure&logoColor=fff)](#)
-[![Node.js](https://img.shields.io/badge/Node.js-5FA04E?logo=nodedotjs&logoColor=fff)](#)
-[![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=fff)](#)
+[![Rust](https://img.shields.io/badge/Rust-000?logo=rust&logoColor=fff)](#)
 
 </div>
 
 ---
 
-I believe AI agents are the next platform shift — and they need **immune systems**, not just guardrails.  
-My open-source work focuses on making AI agents safer, smarter, and more observable.
+I read AI agent source code so you don't have to. I've gone through 12 production codebases line by line — Claude Code, Cline, Dify, Goose, and others — and published architecture teardowns with diagrams, code evidence, and cross-project comparisons.
 
-## 🔬 Project Ecosystem
+I also build tools: a quantitative finance engine with genetic algorithm strategy evolution, a security scanner for AI agents, and a behavioral testing framework.
 
-```mermaid
-graph TB
-    subgraph "AI Agent Toolchain"
-        AP["🔬 AgentProbe<br/>Testing & Observability"]
-        CG["🛡️ ClawGuard<br/>Security Scanner"]
-        R2S["⚡ repo2skill<br/>Skill Conversion"]
-        FC["📈 FinClaw<br/>Quantitative Finance"]
-    end
+## 🔬 Featured
 
-    AP -->|"tests security of"| CG
-    R2S -->|"converts repos into skills"| AP
-    R2S -->|"converts repos into skills"| FC
-    CG -->|"protects"| FC
-    AP -->|"validates agents in"| FC
+| | Project | What it is |
+|---|---------|-----------|
+| 🏗️ | **[awesome-ai-anatomy](https://github.com/NeuZhou/awesome-ai-anatomy)** | Source code teardowns of 12 AI agent projects. Architecture diagrams, security analysis, design patterns. |
+| 📈 | **[FinClaw](https://github.com/NeuZhou/finclaw)** | AI quant finance engine. 484 factors, genetic algorithm strategy evolution, walk-forward validation. |
+| 🛡️ | **[ClawGuard](https://github.com/NeuZhou/clawguard)** | Security scanner for AI agents. 483 threat patterns, PII sanitizer, zero dependencies. |
+| 🧪 | **[AgentProbe](https://github.com/NeuZhou/agentprobe)** | Behavioral testing for AI agents. YAML-first, catches PII leaks and tool abuse. |
 
-    style AP fill:#4FC3F7,stroke:#0288D1,color:#000
-    style CG fill:#EF5350,stroke:#C62828,color:#fff
-    style R2S fill:#FFB74D,stroke:#E65100,color:#000
-    style FC fill:#66BB6A,stroke:#2E7D32,color:#fff
-```
+## 📝 Latest Teardowns
 
-## 🚀 Featured Projects
+From [awesome-ai-anatomy](https://github.com/NeuZhou/awesome-ai-anatomy):
 
-| | Project | Description | Tests | Install |
-|---|---------|-------------|-------|---------|
-| 🔬 | **[AgentProbe](https://github.com/NeuZhou/agentprobe)** v2.1.0 | Playwright for AI Agents — test, observe, and validate AI agent behavior | 781+ | `npm i agentprobe` |
-| 🛡️ | **[ClawGuard](https://github.com/NeuZhou/clawguard)** | AI Agent Security Scanner — 287+ threat patterns, PII sanitizer, OWASP coverage | 287+ | `npm i @neuzhou/clawguard` |
-| 📈 | **[FinClaw](https://github.com/NeuZhou/finclaw)** v2.1.0 | AI-Powered Quantitative Finance — 8 master strategies, US/CN/HK markets | 411+ | `pip install finclaw-ai` |
-| ⚡ | **[repo2skill](https://github.com/NeuZhou/repo2skill)** v3.0.0 | Convert any GitHub repo into an AI agent skill in one command | 256+ | `npx repo2skill` |
+- **Cline** — 60K stars, 3,756-line God Object, 40+ providers, YOLO mode bypasses all permission checks
+- **Claude Code** — Hidden tamagotchi system (18 virtual pet species) in a production coding agent
+- **MiroFish** — 50K stars, "collective intelligence" is LLMs role-playing on a simulated social network
+- **Codex CLI** — Queue-pair architecture, Guardian AI approval system, OS-level sandbox
+- **Lightpanda** — From-scratch browser in Zig, bitcast dispatch trick we'd never seen before
 
-> **1,735+ tests** across the ecosystem — because AI agents deserve battle-tested tools.
+[Read all 12 teardowns →](https://github.com/NeuZhou/awesome-ai-anatomy)
 
-## 📊 GitHub Stats
+## 📬 Links
 
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=NeuZhou&show_icons=true&theme=default&hide_border=true&count_private=true" height="165" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NeuZhou&layout=compact&hide_border=true&langs_count=6" height="165" />
-
-</div>
-
-<div align="center">
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=NeuZhou&hide_border=true" height="165" />
-
-</div>
-
-## 🧠 Skills & Interests
-
-- **AI Agent Security** — prompt injection, tool misuse detection, PII protection
-- **AI Agent Testing** — behavioral testing, observability, regression detection
-- **Quantitative Finance** — algorithmic trading, multi-market strategies, backtesting
-- **Developer Tooling** — CLI tools, code generation, developer experience
-- **Open Source** — building tools that make AI agents safer for everyone
-
-## 🔗 Links
-
-[![npm](https://img.shields.io/badge/npm-@neuzhou-CB3837?logo=npm)](https://www.npmjs.com/~neuzhou)
-[![PyPI](https://img.shields.io/badge/PyPI-finclaw--ai-3775A9?logo=pypi&logoColor=fff)](https://pypi.org/project/finclaw-ai/)
-[![Blog](https://img.shields.io/badge/Blog-Coming_Soon-000?logo=hashnode&logoColor=fff)](#)
+[![Substack](https://img.shields.io/badge/Substack-neuzhou-orange?logo=substack)](https://neuzhou.substack.com)
+[![Dev.to](https://img.shields.io/badge/Dev.to-neuzhou-000?logo=devdotto)](https://dev.to/neuzhou)
 
 ---
 
 <div align="center">
-  <i>"Every claw needs a guard."</i> 🦀🛡️
+  <i>12 AI agent codebases dissected. More coming every week.</i>
 </div>
